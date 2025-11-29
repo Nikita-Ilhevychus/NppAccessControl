@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NppAccessControl.DAL", "NppAccessControl.DAL\NppAccessControl.DAL.csproj", "{9C24B9D7-2F7B-4E48-902E-1D29DE0ED8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NppAccessControl.DAL.Tests", "NppAccessControl.DAL.Tests\NppAccessControl.DAL.Tests.csproj", "{F7A326E8-9134-4237-927D-B3BB10CC55D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9C24B9D7-2F7B-4E48-902E-1D29DE0ED8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C24B9D7-2F7B-4E48-902E-1D29DE0ED8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C24B9D7-2F7B-4E48-902E-1D29DE0ED8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A326E8-9134-4237-927D-B3BB10CC55D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A326E8-9134-4237-927D-B3BB10CC55D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A326E8-9134-4237-927D-B3BB10CC55D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A326E8-9134-4237-927D-B3BB10CC55D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
