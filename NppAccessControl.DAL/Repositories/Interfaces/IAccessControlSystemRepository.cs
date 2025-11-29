@@ -3,4 +3,7 @@ using NppAccessControl.DAL.Repositories.Interfaces.Base;
 
 namespace NppAccessControl.DAL.Repositories.Interfaces;
 
-public interface IAccessControlSystemRepository : IBaseRepository<AccessControlSystem>;
+public interface IAccessControlSystemRepository : IBaseRepository<AccessControlSystem>
+{
+    Task<AccessControlSystem?> GetByIdWithTopologyAsync(Guid id, CancellationToken cancellationToken = default);
+}
